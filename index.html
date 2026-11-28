@@ -232,9 +232,9 @@ body[data-sanctuary="tropical"] #world.tropical-ready #garden{visibility:hidden}
 .tropical-ocean:after{background:repeating-linear-gradient(12deg,transparent 0 24px,#c6ffff33 26px,transparent 28px 54px);animation-duration:23s;animation-direction:reverse}
 @keyframes tropical-ripple{to{transform:translate(70px,42px)}}
 .tropical-sky{position:absolute;inset:0;z-index:1;pointer-events:none;overflow:hidden}
-.tropical-sky:before,.tropical-sky:after{content:"";position:absolute;inset:0;background:url('https://gcdn.picsart.com/pipeline-output/fcfb1398-6a5d-4e48-b707-043764c9c00e.png') center/100% 100% no-repeat;-webkit-mask-image:radial-gradient(ellipse 17% 12% at 12% 16%,#000 30%,transparent 100%);mask-image:radial-gradient(ellipse 17% 12% at 12% 16%,#000 30%,transparent 100%);animation:tropical-clouds 35s ease-in-out infinite alternate}
-.tropical-sky:after{-webkit-mask-image:radial-gradient(ellipse 17% 12% at 87% 17%,#000 30%,transparent 100%);mask-image:radial-gradient(ellipse 17% 12% at 87% 17%,#000 30%,transparent 100%);animation-duration:43s;animation-direction:alternate-reverse}
-@keyframes tropical-clouds{from{transform:translateX(-4%)}to{transform:translateX(7%)}}
+.tropical-sky:before,.tropical-sky:after{content:"";position:absolute;inset:0;background:url('https://gcdn.picsart.com/pipeline-output/fcfb1398-6a5d-4e48-b707-043764c9c00e.png') center/100% 100% no-repeat;-webkit-mask-image:radial-gradient(ellipse 17% 12% at 12% 16%,#000 30%,transparent 100%);mask-image:radial-gradient(ellipse 17% 12% at 12% 16%,#000 30%,transparent 100%);animation:tropical-clouds 20s ease-in-out infinite alternate}
+.tropical-sky:after{-webkit-mask-image:radial-gradient(ellipse 17% 12% at 87% 17%,#000 30%,transparent 100%);mask-image:radial-gradient(ellipse 17% 12% at 87% 17%,#000 30%,transparent 100%);animation-duration:27s;animation-direction:alternate-reverse}
+@keyframes tropical-clouds{from{transform:translateX(-8%)}to{transform:translateX(12%)}}
 .tropical-birds{position:absolute;inset:0;z-index:9;visibility:hidden;pointer-events:none;overflow:hidden}
 .tropical-parrots.revealed~.tropical-birds{visibility:visible}
 .tropical-bird{position:absolute;left:-9%;top:var(--y);width:var(--size);animation:tropical-flight var(--duration) linear var(--delay) infinite;filter:drop-shadow(0 1px 1px #27454f)}
